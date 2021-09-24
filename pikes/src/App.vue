@@ -1,12 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/contact">Contact</router-link> |
-      <router-link to="/donate">Donate</router-link>
-    </div>
+    <header>
+      <img src= "./assets/pikes-logo.jpg" class="logo" />
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/contact">Contact</router-link> |
+        <router-link to="/donate">Donate</router-link>
+      </div>
+    </header>
     <router-view/>
+
   </div>
 </template>
 
@@ -17,6 +21,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.logo{
+max-height: 10vh;
+position: fixed;
+margin-left: -45vw;
 }
 
 #nav {
