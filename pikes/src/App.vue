@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header>
+    <header id="header">
       <img src= "./assets/pikes-logo.jpg" class="logo" />
       <div id="nav">
         <router-link to="/">Home</router-link> |
@@ -27,11 +27,23 @@
 max-height: 10vh;
 position: fixed;
 margin-left: -45vw;
+z-index: 2;
+}
+
+header{
+background-color: rgb(255, 255, 255);
 }
 
 #nav {
-  padding: 30px;
+  background-color: white;
+  padding: 40px;
   float: right;
+  position: fixed;
+  margin-left: -73vw;
+  display: inline;
+  width:200%;
+  z-index: 1;
+
 }
 
 #nav a {

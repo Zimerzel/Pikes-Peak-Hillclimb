@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <img alt="Vue logo" src="../assets/viper.jpg">
+    <img class="viper" alt="Vue logo" src="../assets/viper.jpg">
     <h1>{{ msg }}</h1>
     <div class="history">
-      <p>
+      <p id="main">
         In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway [1] through a special-use permit issued by the U.S. 
         National Forest Service, the roads previous caretaker. 
         The road was composed of an entirely dirt surface at the time that the City of Colorado Springs became its caretaker and in the 1950s the first 6 miles of the highway were paved, 
@@ -23,6 +23,54 @@
         The PPIHC places great value in the rich tradition and history that comes with being the second oldest motorsports event in the Western Hemisphere and was not in favor of the paving of the dirt racing surface that had been used since the first race in 1916. [6]***
       </p>
     </div>
+    <br />
+    <br />
+    <br />
+    <div>
+      <div class="mt-4">
+        <b-card img-src="https://img.redbull.com/images/c_fill,g_auto,w_860,h_1229/q_auto,f_auto/redbullcom/2013/07/01/1331598901564_23/peugeot-208-t16-pikes-peak-loeb" img-alt="Card image" img-left class="mb-3">
+          <b-card-title id="title">
+              <img src="../assets/Icons/finish.svg" width="80px"/>
+          </b-card-title>
+          <b-card-subtitle id="text">
+            1918
+          </b-card-subtitle>
+          <b-card-text id="text">
+            First Race
+          </b-card-text>
+          <b-card-title id="title">
+              <img src="../assets/Icons/road.svg" width="80px"/>
+          </b-card-title>
+          <b-card-subtitle id="text">
+            12.42
+          </b-card-subtitle>
+          <b-card-text id="text">
+            Miles
+          </b-card-text>
+        </b-card>
+
+        <b-card img-src="https://bloximages.newyork1.vip.townnews.com/gazette.com/content/tncms/assets/v3/editorial/e/9e/e9eb8bfa-5c84-11e9-ac7e-47ceeec68d58/5caf835d058b0.image.jpg?resize=1200%2C680" img-alt="Card image" img-right class="mb-3" >
+          <b-card-title id="title">
+              <img src="../assets/Icons/arrow.svg" width="80px"/>
+          </b-card-title>
+          <b-card-subtitle id="text">
+            156
+          </b-card-subtitle>
+          <b-card-text id="text">
+            Corners
+          </b-card-text>
+          <b-card-title id="title">
+              <img src="../assets/Icons/checkered-flag.svg" width="80px"/>
+          </b-card-title>
+          <b-card-subtitle id="text">
+            14,115
+          </b-card-subtitle>
+          <b-card-text id="text">
+            Distance to finish line (ft)
+          </b-card-text>
+        </b-card>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -41,6 +89,14 @@ export default {
 width: 100%;
 }
 
+.hello h1{
+padding-top: 30px;
+}
+
+p {
+padding: 2vw;
+}
+
 h3 {
   margin: 40px 0 0;
 }
@@ -56,22 +112,55 @@ a {
   color: #42b983;
 }
 
-img {
+.viper {
 object-fit: cover;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 width: 100%;
+z-index: 0;
+padding-top: 100px;
 }
 
 .history{
 padding: 20px;
 }
 
+
+.history p {
+padding: 0px;
+text-align: left;
+}
+
 .history aside img{
-/* height: 600px;
+max-height: 600px;
 float: right;
-padding: 20px; */
+padding: 20px;
+align-content: center;
+}
+
+#title{
+padding: 40px
+}
+
+#text {
+font-size: x-large;
+font-weight: bold;
+}
+
+.mb-3{
+background-color: rgb(58, 60, 66);
+color: rgb(0, 0, 0);
+width:100%;
+}
+
+.mt4 {
+  width:100%;
+}
+
+.mt-4 img{
+max-width: 450px;
+object-fit: cover;
 
 }
 </style>
