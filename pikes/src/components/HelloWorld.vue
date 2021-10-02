@@ -4,7 +4,7 @@
     <h1>{{ msg }}</h1>
     <div class="history">
       <p id="main">
-        In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway [1] through a special-use permit issued by the U.S. 
+        In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway through a special-use permit issued by the U.S. 
         National Forest Service, the roads previous caretaker. 
         The road was composed of an entirely dirt surface at the time that the City of Colorado Springs became its caretaker and in the 1950s the first 6 miles of the highway were paved, 
         up to about a mile below the Start Line for the Pikes Peak International Hill Climb. 
@@ -16,11 +16,11 @@
       </aside>
       <p>
         The City did however argue that the Highway could not be established as a “point source” under the Clean Water Act and that the Sierra Club did not have the legal right to the relief sought. The United States filed a brief in response to the City’s motion arguing that the Highway is a point source and would be 
-        required to acquire the appropriate discharge permits and certification. [2] The Sierra Club and City of Colorado Springs reached a settlement in February 1999 and the State of Colorado ordered the City of Colorado Springs to comply with the conditions contained in a Section 401 permit issued by the Water Quality Control Division of the Colorado Department of Public Health and the Environment.
-        [3] This permit stated that the City had to implement a plan to correct the erosion and sediment problems caused by the highway before 2012. [4] In addition to the permitting requirements which were projected to cast $14-20 million, the suit called for the City to contribute $300,000 to fund cleanup and remediation projects in 
-        addition to $100,000 to assist with the Sierra Club’s legal fees. Although the National Forest Service was a co-defendant in the lawsuit, they were not a party in the settlement because the City of Colorado Springs was/is the party responsible for maintaining the Highway. [5] The City found no other solution to meet the permitting requirements other than paving the remaining 13 miles of dirt that 
+        required to acquire the appropriate discharge permits and certification. The Sierra Club and City of Colorado Springs reached a settlement in February 1999 and the State of Colorado ordered the City of Colorado Springs to comply with the conditions contained in a Section 401 permit issued by the Water Quality Control Division of the Colorado Department of Public Health and the Environment.
+        This permit stated that the City had to implement a plan to correct the erosion and sediment problems caused by the highway before 2012. In addition to the permitting requirements which were projected to cast $14-20 million, the suit called for the City to contribute $300,000 to fund cleanup and remediation projects in 
+        addition to $100,000 to assist with the Sierra Club’s legal fees. Although the National Forest Service was a co-defendant in the lawsuit, they were not a party in the settlement because the City of Colorado Springs was/is the party responsible for maintaining the Highway. The City found no other solution to meet the permitting requirements other than paving the remaining 13 miles of dirt that 
         lead to the Summit of Pikes Peak – Americas Mountain. The first mile of paving was installed in 2002 and the project was completed weeks after the 89th Running of the Pikes Peak International Hill Climb in 2011. ***The PPIHC rents the road from the City of Colorado Springs to organize the race each year and was not involved in the decision to pave the top 13 miles of the Pikes Peak Highway.
-        The PPIHC places great value in the rich tradition and history that comes with being the second oldest motorsports event in the Western Hemisphere and was not in favor of the paving of the dirt racing surface that had been used since the first race in 1916. [6]***
+        The PPIHC places great value in the rich tradition and history that comes with being the second oldest motorsports event in the Western Hemisphere and was not in favor of the paving of the dirt racing surface that had been used since the first race in 1916.***
       </p>
     </div>
     <br />
@@ -66,7 +66,7 @@
             14,115
           </b-card-subtitle>
           <b-card-text id="text">
-            Distance to finish line (ft)
+            Finish Line Elevation (ft)
           </b-card-text>
         </b-card>
       </div>

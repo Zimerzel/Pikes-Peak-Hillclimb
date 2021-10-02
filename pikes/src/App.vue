@@ -10,7 +10,9 @@
       </div>
     </header>
     <router-view/>
-
+    <footer>
+      <h4>Copyright © 2021 Zach Imerzel</h4>
+    </footer>
   </div>
 </template>
 
@@ -52,6 +54,6 @@ background-color: rgb(255, 255, 255);
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: royalblue;
 }
 </style>

@@ -1,16 +1,22 @@
 <template>
-    <div>
-        <h1> Contact </h1>
+    <div class="contact">
+
     </div>
 </template>
 
 <script>
 export default {
-    name: "Contact",
+    name: 'Contact'
 }
 </script>
 
 <style scoped>
-
+.contact {
+    padding-top: 30vh;
+    background-color: red;
+}
+.contact p{
+    color: black;
+}
 </style>
 
