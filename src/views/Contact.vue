@@ -58,7 +58,7 @@ iframe{
 
 .contact-info{
 background-color: #2c3e50;
-padding: 20px;
+padding: 40px;
 }
 
 .contact-info h2{
