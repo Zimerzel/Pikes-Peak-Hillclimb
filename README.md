@@ -7,4 +7,4 @@ Built with Vue.js (WIP)
 
 
 ## Deployed Site(WIP)
-*https://pikes-peak-329615.web.app/#/
+* https://pikes-peak-329615.web.app/#/
