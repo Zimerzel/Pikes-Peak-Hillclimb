@@ -9,21 +9,28 @@
         <br/>
         <div id="contact-container">
             <div class="contact-info">
-                <img src="" />
-                <h2>Office Adress</h2>
-                <p>1631 Mesa Avenue, Suite E</p>
+                <div>
+                    <h2>Office Adress</h2>
+                    <aside>
+                        <img src="../assets/Icons/map.svg" />   
+                    </aside>
+                    <p>1631 Mesa Avenue, Suite E</p>
                 <br />
                 <p>Colorado Springs, CO 80906</p>
+                </div>
                 <br />
-                <img src="" />
                 <h2>Phone Number</h2>
+                    <aside>
+                        <img src="../assets/Icons/phone.svg" />   
+                    </aside>
                 <p>Main: 719.685.4400</p>
                 <br />
-                <img src="" />
                 <h2>General Information</h2>
+                    <aside>
+                        <img src="../assets/Icons/email.svg" />   
+                    </aside>
                 <p>Information@pphic.org</p>
                 <br />
-                <img src="" />
                 <h2>Staff Email</h2>
                 <p> zach.imerzel@gmail.com</p>
             </div>
@@ -55,13 +62,40 @@ padding: 20px;
 }
 
 .contact-info h2{
-    padding: 10px;
+    padding: 20px;
     color: white;
 }
 
 .contact-info p{
     display: inline;
-    padding: 10px;
+    padding: 20px;
     color: white;
+}
+
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    float: left;
+    width:80px;
+
+}
+aside img{
+    position: absolute;
+    width:40px;
+    top:-10px;
+    left: 25vw;
+}
+
+@media only screen and (max-width:1120px){
+  aside img{
+    margin-left: -15vw;
+  }
+}
+
+@media only screen and (min-width:1124px){
+  aside img{
+    margin-left: -2vw;
+  }
 }
 </style>
