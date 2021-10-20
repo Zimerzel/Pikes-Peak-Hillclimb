@@ -27,7 +27,7 @@
     <br />
     <br />
     <div>
-      <div class="mt-4">
+      <div id="cards">
         <b-card img-src="https://img.redbull.com/images/c_fill,g_auto,w_860,h_1229/q_auto,f_auto/redbullcom/2013/07/01/1331598901564_23/peugeot-208-t16-pikes-peak-loeb" img-alt="Card image" img-left class="mb-3">
           <b-card-title id="title">
               <img src="../assets/Icons/finish.svg" width="80px"/>
@@ -87,6 +87,7 @@ export default {
 <style scoped>
 .hello{
 width: 100%;
+
 }
 
 .hello h1{
@@ -162,5 +163,38 @@ width:100%;
 max-width: 450px;
 object-fit: cover;
 
+}
+
+#cards{
+display: flex;
+flex-wrap: wrap;
+}
+
+.card-img-left, .card-img-right{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  object-fit: cover;
+}
+
+
+aside img{
+  width: 60%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 1020px) {
+  aside img{
+    width: 60%;
+  }
+  .history{
+    padding-right: 15vw;
+    padding-left: 15vw;
+  }
+}
+@media only screen and (min-width:1490px){
+  aside img{
+    width: 40%;
+  }
 }
 </style>
