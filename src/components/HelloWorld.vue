@@ -19,56 +19,86 @@
         required to acquire the appropriate discharge permits and certification. The Sierra Club and City of Colorado Springs reached a settlement in February 1999 and the State of Colorado ordered the City of Colorado Springs to comply with the conditions contained in a Section 401 permit issued by the Water Quality Control Division of the Colorado Department of Public Health and the Environment.
         This permit stated that the City had to implement a plan to correct the erosion and sediment problems caused by the highway before 2012. In addition to the permitting requirements which were projected to cast $14-20 million, the suit called for the City to contribute $300,000 to fund cleanup and remediation projects in 
         addition to $100,000 to assist with the Sierra Club’s legal fees. Although the National Forest Service was a co-defendant in the lawsuit, they were not a party in the settlement because the City of Colorado Springs was/is the party responsible for maintaining the Highway. The City found no other solution to meet the permitting requirements other than paving the remaining 13 miles of dirt that 
-        lead to the Summit of Pikes Peak – Americas Mountain. The first mile of paving was installed in 2002 and the project was completed weeks after the 89th Running of the Pikes Peak International Hill Climb in 2011. ***The PPIHC rents the road from the City of Colorado Springs to organize the race each year and was not involved in the decision to pave the top 13 miles of the Pikes Peak Highway.
-        The PPIHC places great value in the rich tradition and history that comes with being the second oldest motorsports event in the Western Hemisphere and was not in favor of the paving of the dirt racing surface that had been used since the first race in 1916.***
+        lead to the Summit of Pikes Peak – Americas Mountain. The first mile of paving was installed in 2002 and the project was completed weeks after the 89th Running of the Pikes Peak International Hill Climb in 2011. <strong>***The PPIHC rents the road from the City of Colorado Springs to organize the race each year and was not involved in the decision to pave the top 13 miles of the Pikes Peak Highway.
+        The PPIHC places great value in the rich tradition and history that comes with being the second oldest motorsports event in the Western Hemisphere and was not in favor of the paving of the dirt racing surface that had been used since the first race in 1916.***</strong>
       </p>
     </div>
     <br />
     <br />
     <br />
-    <div>
-      <div id="cards">
-        <b-card img-src="https://img.redbull.com/images/c_fill,g_auto,w_860,h_1229/q_auto,f_auto/redbullcom/2013/07/01/1331598901564_23/peugeot-208-t16-pikes-peak-loeb" img-alt="Card image" img-left class="mb-3">
-          <b-card-title id="title">
-              <img src="../assets/Icons/finish.svg" width="80px"/>
-          </b-card-title>
-          <b-card-subtitle id="text">
-            1918
-          </b-card-subtitle>
-          <b-card-text id="text">
-            First Race
-          </b-card-text>
-          <b-card-title id="title">
-              <img src="../assets/Icons/road.svg" width="80px"/>
-          </b-card-title>
-          <b-card-subtitle id="text">
-            12.42
-          </b-card-subtitle>
-          <b-card-text id="text">
-            Miles
-          </b-card-text>
-        </b-card>
-
-        <b-card img-src="https://bloximages.newyork1.vip.townnews.com/gazette.com/content/tncms/assets/v3/editorial/e/9e/e9eb8bfa-5c84-11e9-ac7e-47ceeec68d58/5caf835d058b0.image.jpg?resize=1200%2C680" img-alt="Card image" img-right class="mb-3" >
-          <b-card-title id="title">
-              <img src="../assets/Icons/arrow.svg" width="80px"/>
-          </b-card-title>
-          <b-card-subtitle id="text">
-            156
-          </b-card-subtitle>
-          <b-card-text id="text">
-            Corners
-          </b-card-text>
-          <b-card-title id="title">
-              <img src="../assets/Icons/checkered-flag.svg" width="80px"/>
-          </b-card-title>
-          <b-card-subtitle id="text">
-            14,115
-          </b-card-subtitle>
-          <b-card-text id="text">
-            Finish Line Elevation (ft)
-          </b-card-text>
-        </b-card>
+    <blockquote class="blockquote">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <img src="../assets/Icons/finish.svg" width="80px"/>
+          </div>
+          <div class="col">
+            <img src="../assets/Icons/road.svg" width="80px"/>
+          </div>
+          <div class="col">
+            <img src="../assets/Icons/arrow.svg" width="80px"/>
+          </div>
+          <div class="col">
+            <img src="../assets/Icons/checkered-flag.svg" width="80px"/>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col">
+            <h1>1918</h1>
+            <span>-</span>
+          </div>
+          <div class="col">
+            <h1>12.42</h1>
+            <span>-</span>
+          </div>
+          <div class="col">
+            <h1>156</h1>
+            <span>-</span>
+          </div>
+            <div class="col">
+            <h1>14,115</h1>
+            <span>-</span>
+          </div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col">
+            <p>First Race</p>
+          </div>
+          <div class="col">
+            <p>Miles</p>
+          </div>
+          <div class="col">
+            <p>Corners</p>
+          </div>
+          <div class="col">
+            <p>Foot Finish Line</p>
+          </div>
+        </div>
+      </div>
+    </blockquote>
+    <div class="thanks">
+      <h1>THANK YOU TO ALL OUR RACE SPONSORS</h1>
+      <img width="70" height="5" src="https://ppihc.org/wp-content/uploads/2015/09/under-line-pink.png" class="attachment-full size-full" alt="" loading="lazy">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ppihc.org/wp-content/uploads/2017/08/gran-turismo-logo-2.png"  alt="grand turismo" height="110px" width="139px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://ppihc.org/wp-content/uploads/Visit-Colorado-Springs-Horizontal-Resized-for-Web-140x110.png" class="d-block w-100" alt="..." height="110px" width="140px">
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </div>
@@ -149,7 +179,44 @@ font-size: x-large;
 font-weight: bold;
 }
 
-.mb-3{
+.col img{
+  width: 50px;
+}
+
+.col h1{
+  font-size: 60px;
+  font-weight:100;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col span{
+  font-size: 50px;
+  color: grey;
+}
+
+.col p{
+  font-size: 20px;
+  margin-top: -30px;
+}
+
+
+.thanks{
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    background-image: url(https://ppihc.org/wp-content/uploads/bk-10.png?id=4214) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.thanks h1{
+  color: white;
+}
+
+
+
+/* .mb-3{
 background-color: rgb(58, 60, 66);
 color: rgb(0, 0, 0);
 width:100%;
@@ -166,8 +233,8 @@ object-fit: cover;
 }
 
 #cards{
-display: flex;
-flex-wrap: wrap;
+margin-left: 30px;
+margin-right: 30px;
 }
 
 .card-img-left, .card-img-right{
@@ -175,7 +242,7 @@ flex-wrap: wrap;
   flex-wrap: wrap;
   width: 60%;
   object-fit: cover;
-}
+} */
 
 
 aside img{
@@ -190,6 +257,10 @@ aside img{
   .history{
     padding-right: 15vw;
     padding-left: 15vw;
+  }
+  .card-img-left{
+    width:600px;
+    background-position-x: -%;
   }
 }
 @media only screen and (min-width:1490px){

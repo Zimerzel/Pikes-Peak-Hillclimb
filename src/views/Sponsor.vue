@@ -1,5 +1,5 @@
 <template>
     <div> 
-        <h1>Donate</h1>
+        <h1>Sponsors</h1>
     </div>
 </template>

@@ -5,7 +5,7 @@
       <div id="nav">
         <router-link to="/" class="hover-underline-animation">About</router-link>
         <router-link to="/contact" class="hover-underline-animation">Contact</router-link>
-        <router-link to="/donate" class="hover-underline-animation">Donate</router-link>
+        <router-link to="/sponsor" class="hover-underline-animation">Sponsors</router-link>
         <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-instagram" ></i></a>
         <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-youtube"></i></a>
