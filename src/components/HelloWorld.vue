@@ -2,6 +2,7 @@
   <div class="hello">
     <img class="viper" alt="Vue logo" src="../assets/viper.jpg">
     <h1>{{ msg }}</h1>
+    <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
     <div class="history">
       <p id="main">
         In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway through a special-use permit issued by the U.S. 
@@ -71,7 +72,7 @@
             <p>Corners</p>
           </div>
           <div class="col">
-            <p>Foot Finish Line</p>
+            <p>Finish Line(ft)</p>
           </div>
         </div>
       </div>
@@ -122,6 +123,8 @@ width: 100%;
 
 .hello h1{
 padding-top: 30px;
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
 }
 
 p {
@@ -179,27 +182,31 @@ font-size: x-large;
 font-weight: bold;
 }
 
+.blockquote{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .col img{
   width: 50px;
 }
 
 .col h1{
-  font-size: 60px;
+  font-size: 5vw;
   font-weight:100;
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
 }
 
 .col span{
-  font-size: 50px;
+  font-size: 8vw;
   color: grey;
 }
 
 .col p{
-  font-size: 20px;
-  margin-top: -30px;
+  font-size: 2.25vw;
+  margin-top: -10px;
 }
-
 
 .thanks{
     padding-top: 40px !important;
@@ -214,37 +221,6 @@ font-weight: bold;
   color: white;
 }
 
-
-
-/* .mb-3{
-background-color: rgb(58, 60, 66);
-color: rgb(0, 0, 0);
-width:100%;
-}
-
-.mt4 {
-  width:100%;
-}
-
-.mt-4 img{
-max-width: 450px;
-object-fit: cover;
-
-}
-
-#cards{
-margin-left: 30px;
-margin-right: 30px;
-}
-
-.card-img-left, .card-img-right{
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-  object-fit: cover;
-} */
-
-
 aside img{
   width: 60%;
   object-fit: cover;
@@ -258,10 +234,18 @@ aside img{
     padding-right: 15vw;
     padding-left: 15vw;
   }
-  .card-img-left{
-    width:600px;
-    background-position-x: -%;
+  .col h1{
+    font-size: 3vw;
   }
+  
+  .col span{
+    font-size: 4vw;
+  }
+
+  .col p{
+    font-size: 1.25vw;
+  }
+
 }
 @media only screen and (min-width:1490px){
   aside img{

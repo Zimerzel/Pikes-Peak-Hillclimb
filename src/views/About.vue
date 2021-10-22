@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <HelloWorld msg="Pikes Peak International Hill Climb"/>
+    <HelloWorld msg="Paving Pikes Peak"/>
   </div>
 </template>
 
