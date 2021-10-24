@@ -77,44 +77,75 @@
         </div>
       </div>
     </blockquote>
-    <div class="thanks">
-      <h1>THANK YOU TO ALL OUR RACE SPONSORS</h1>
-      <img width="70" height="5" src="https://ppihc.org/wp-content/uploads/2015/09/under-line-pink.png" class="attachment-full size-full" alt="" loading="lazy">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://ppihc.org/wp-content/uploads/2017/08/gran-turismo-logo-2.png"  alt="grand turismo" height="110px" width="139px">
-          </div>
-          <div class="carousel-item">
-            <img src="https://ppihc.org/wp-content/uploads/Visit-Colorado-Springs-Horizontal-Resized-for-Web-140x110.png" class="d-block w-100" alt="..." height="110px" width="140px">
-          </div>
-          <div class="carousel-item">
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    
+    <div>
+      <div class="carousel">
+        <b-carousel
+          id="carousel-1"
+          v-model="slide"
+          :interval="3000"
+          controls
+          indicators
+          background="#ccc"
+          img-width="1024"
+          img-height="480px"
+          style="text-shadow: 1px 1px 2px #000;"
+          @sliding-start="onSlideStart"
+          @sliding-end="onSlideEnd"
+        >
+          <!-- Text slides with image -->
+          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
+            <img src="https://ppihc.org/wp-content/uploads/2017/08/gran-turismo-logo-2.png" />
+          </b-carousel-slide>
+
+          <!-- Slides with custom text -->
+          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
+            <img src="https://ppihc.org/wp-content/uploads/Visit-Colorado-Springs-Horizontal-Resized-for-Web-140x110.png" />
+          </b-carousel-slide>
+
+          <!-- Slides with image only -->
+          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
+            <img src="https://ppihc.org/wp-content/uploads/LART-Resized-for-Web.png" />
+          </b-carousel-slide>
+
+          <!-- Slides with img slot -->
+          <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
+              <img src="https://ppihc.org/wp-content/uploads/ToyoTiresNoTag_blue-Resized-for-web-140x110.png" alt="image slot">
+          </b-carousel-slide>
+
+          <!-- Slide with blank fluid image to maintain slide aspect ratio -->
+          <!-- <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
+              a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
+            </p>
+          </b-carousel-slide> -->
+        </b-carousel>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  export default {
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart() {
+        this.sliding = true
+      },
+      onSlideEnd() {
+        this.sliding = false
+      }
+    }
   }
-}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hello{
 width: 100%;
@@ -224,6 +255,15 @@ font-weight: bold;
 aside img{
   width: 60%;
   object-fit: cover;
+}
+
+
+.carousel{
+
+}
+
+.carousel img{
+
 }
 
 @media only screen and (min-width: 1020px) {

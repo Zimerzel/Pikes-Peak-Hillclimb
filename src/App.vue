@@ -2,13 +2,28 @@
   <div id="app">
     <header id="header">
       <img src= "./assets/pikes-logo.jpg" class="logo" />
-      <div id="nav">
+      <!-- <div id="nav">
         <router-link to="/" class="hover-underline-animation">About</router-link>
         <router-link to="/contact" class="hover-underline-animation">Contact</router-link>
         <router-link to="/sponsor" class="hover-underline-animation">Sponsors</router-link>
         <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-instagram" ></i></a>
         <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-youtube"></i></a>
+      </div> -->
+      <div id="header">
+        <b-navbar toggleable="lg" type="light" variant="white" id="navbar" class="navbar-horizontal">
+          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+          <b-collapse id="nav-collapse" is-nav>
+            <b-navbar-nav class="navbar-nav">
+              <router-link to="/" class="hover-underline-animation">About</router-link>
+              <router-link to="/contact" class="hover-underline-animation">Contact</router-link>
+              <router-link to="/sponsor" class="hover-underline-animation">Sponsors</router-link>
+              <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-instagram" ></i></a>
+              <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-youtube"></i></a>
+            </b-navbar-nav>
+          </b-collapse>
+        </b-navbar>
       </div>
     </header>
     <router-view/>
@@ -42,9 +57,13 @@ footer h4{
   font-size: 14px;
 }
 
-#nav {
+#navbar{
+  position: fixed;
+  left:73%;
+  width:100vw;
   background-color: white;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   float: right;
   position: fixed;
   margin-left: -73vw;
@@ -54,15 +73,24 @@ footer h4{
 
 }
 
-#nav a {
+.navbar-nav{
+  float: left;
+  margin-left: 4vw;
+  margin-right: 3vw
+}
+
+.navbar-nav a {
+  font-size: 18px;
   font-weight: bold;
   color: #2c3e50;
-  margin-left: 15px;
+  margin-left: 1vw;
   text-decoration: none;
+  margin-right:1vw;
+  left: 60vw;
 
 }
 
-#nav a.router-link-exact-active {
+.navbar-nav a.router-link-exact-active {
   color: royalblue;
 }
 
@@ -80,7 +108,7 @@ footer h4{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ca0d00;
+  background-color: #bb2727;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -88,5 +116,16 @@ footer h4{
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 995px) {
+.navbar-nav a{
+  margin-left: -25vw
+}
+.navbar-toggler{
+  margin-right: 100px !important;
+  margin-top: -10px !important
+}
+
 }
 </style>

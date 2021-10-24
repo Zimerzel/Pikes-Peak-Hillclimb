@@ -10,29 +10,35 @@
         <div id="contact-container">
             <div class="contact-info">
                 <div>
-                    <h2>Office Adress</h2>
-                    <aside>
-                        <img src="../assets/Icons/map.svg" />   
-                    </aside>
-                    <p>1631 Mesa Avenue, Suite E</p>
-                <br />
-                <p>Colorado Springs, CO 80906</p>
+                    <div>
+                        <h2>Office Adress</h2>
+                        <aside>
+                            <img src="../assets/Icons/map.svg" />   
+                        </aside>
+                        <p>1631 Mesa Avenue, Suite E</p>
+                        <br />
+                        <p>Colorado Springs, CO 80906</p>
+                    </div>
                 </div>
                 <br />
-                <h2>Phone Number</h2>
-                    <aside>
-                        <img src="../assets/Icons/phone.svg" />   
-                    </aside>
-                <p>Main: 719.685.4400</p>
+                <div>
+                    <h2>Phone Number</h2>
+                        <aside>
+                            <img src="../assets/Icons/phone.svg" />   
+                        </aside>
+                    <p>Main: 719.685.4400</p>
+                </div>
                 <br />
-                <h2>General Information</h2>
-                    <aside>
-                        <img src="../assets/Icons/email.svg" />   
-                    </aside>
-                <p>Information@pphic.org</p>
-                <br />
-                <h2>Staff Email</h2>
-                <p> zach.imerzel@gmail.com</p>
+                <div>
+                    <h2>General Information</h2>
+                        <aside>
+                            <img src="../assets/Icons/email.svg" />   
+                        </aside>
+                    <p>Information@pphic.org</p>
+                    <br />
+                    <h2>Staff Email</h2>
+                    <p> zach.imerzel@gmail.com</p>
+                </div>
             </div>
         </div>
     </div>
@@ -85,7 +91,7 @@ aside img{
     position: absolute;
     width:40px;
     top:-10px;
-    left: 25vw;
+    left: 20vw;
 }
 
 @media only screen and (max-width:1120px){
