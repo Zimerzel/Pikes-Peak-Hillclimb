@@ -1,29 +1,87 @@
 <template>
   <div class="hello">
     <img class="viper" alt="Vue logo" src="../assets/viper.jpg">
-    <h1>{{ msg }}</h1>
-    <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
-    <div class="history">
-      <p id="main">
-        In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway through a special-use permit issued by the U.S. 
-        National Forest Service, the roads previous caretaker. 
-        The road was composed of an entirely dirt surface at the time that the City of Colorado Springs became its caretaker and in the 1950s the first 6 miles of the highway were paved, 
-        up to about a mile below the Start Line for the Pikes Peak International Hill Climb. 
-        In August 1998, the Pikes Peak chapter of the Sierra Club, the nation’s largest environmental organization, claimed that gravel pollution caused by the 13 unpaved miles of the Pikes Peak Highway violated the Clean Water Act and filed a lawsuit against the City of Colorado Springs and National Forest Service. 
-        The City of Colorado Springs did not deny that gravel from the Pikes Peak Highway migrated from the Highway or that streams, wetlands, and reservoirs were impacted by gravity and weather moving the gravel down the mountain. 
-      </p>
-      <aside>
-        <img loading="lazy" src="https://ppihc.org/wp-content/uploads/Pavement-History-Infographic-Copy-768x768.png" />
-      </aside>
-      <p>
-        The City did however argue that the Highway could not be established as a “point source” under the Clean Water Act and that the Sierra Club did not have the legal right to the relief sought. The United States filed a brief in response to the City’s motion arguing that the Highway is a point source and would be 
-        required to acquire the appropriate discharge permits and certification. The Sierra Club and City of Colorado Springs reached a settlement in February 1999 and the State of Colorado ordered the City of Colorado Springs to comply with the conditions contained in a Section 401 permit issued by the Water Quality Control Division of the Colorado Department of Public Health and the Environment.
-        This permit stated that the City had to implement a plan to correct the erosion and sediment problems caused by the highway before 2012. In addition to the permitting requirements which were projected to cast $14-20 million, the suit called for the City to contribute $300,000 to fund cleanup and remediation projects in 
-        addition to $100,000 to assist with the Sierra Club’s legal fees. Although the National Forest Service was a co-defendant in the lawsuit, they were not a party in the settlement because the City of Colorado Springs was/is the party responsible for maintaining the Highway. The City found no other solution to meet the permitting requirements other than paving the remaining 13 miles of dirt that 
-        lead to the Summit of Pikes Peak – Americas Mountain. The first mile of paving was installed in 2002 and the project was completed weeks after the 89th Running of the Pikes Peak International Hill Climb in 2011. <strong>***The PPIHC rents the road from the City of Colorado Springs to organize the race each year and was not involved in the decision to pave the top 13 miles of the Pikes Peak Highway.
-        The PPIHC places great value in the rich tradition and history that comes with being the second oldest motorsports event in the Western Hemisphere and was not in favor of the paving of the dirt racing surface that had been used since the first race in 1916.***</strong>
-      </p>
-    </div>
+    <section>
+      <div>
+        <h1>WHAT IS THE PPIHC?</h1>
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
+        <p>
+
+          The Broadmoor Pikes Peak International Hill Climb (PPIHC), brought to you by Gran Turismo, 
+          also known as The Race to the Clouds, is an invitational automobile hill climb to the summit 
+          of Pikes Peak – America’s Mountain in Colorado, USA held on the last Sunday of June.  
+          Founded in 1916 by Spencer Penrose (also the founder of The Broadmoor Hotel, Pikes Peak Highway 
+          and El Pomar Foundation), The Broadmoor PPIHC takes place on a 12.42 mile (19.99 km) public
+          toll-road boasting 156 turns, while competitors climb 4,720 ft. (1,440 m.) from the 9,390 ft. 
+          (2,862 m.) Start Line at Mile 7 marker on the Pikes Peak Highway to the 14,115 ft. (4,300 m) 
+          Finish Line at the mountain’s summit.  As the drivers climb toward the summit, the thin air 
+          slows reflexes and saps competitor’s mental and muscle strength in addition to robbing internal
+          combustion engines of up to 30% of the power they are capable of at the Start Line. Competitors 
+          and vehicles must be in top shape and condition simply to finish, let alone win. The race is 
+          self-sanctioned and is the most diverse one day motorsports event in the world.
+        </p>
+      </div>
+      <div>
+        <h1>HISTORY OF THE PIKES PEAK INTERNATIONAL HILL CLIMB</h1>
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
+        <p>Commissioned by Thomas Jefferson to explore the Great Plains, Lt. Zebulon Pike first saw Pikes Peak
+          in 1806 from the eastern portion of today’s Colorado in 1806. As he approached the magnificent peak, 
+          rising abruptly from the plains, Pike swore this mountain would never be conquered by man.
+          Zebulon Pike never scaled the mountain which bears his name. But today, Pikes Peak has been climbed 
+          by tourists from all over the world by car, motorcycle, bicycle, train, mule, horse, and on foot. Most
+          visitors are overcome by its beauty, including Katherine Lee Bates, who was inspired by the view from
+            the summit to compose the famous lyrics to America the Beautiful in 1893.
+          Pike could have imagined neither the vehicles nor the automobile race course which would conclude
+          at the summit of his peak a little over a century after his first sighting. By 1900, a carriage 
+          road had been built. Spencer Penrose, one of Colorado Springs’ city’s major benefactors, realized 
+          the tourist potential of such a beautiful landmark and in 1915 he finished converting the narrow 
+          carriage road into the Pikes Peak Highway. In order to publicize his new road, and draw visitors 
+          to his Broadmoor Hotel, he devised a simple plan; run an automobile race to the summit of Pikes Peak. 
+          The Pikes Peak Auto Hill Climb was first held on August 10, 11, and 12, 1916 and Rea Lentz was 
+          crowned
+            the winner with a time of 20:55.600.
+          Drivers, then and now, are challenged by the torturous road and the rapidly changing weather. 
+          Starting out in sunshine, the driver could travel through sleet, thunderstorms, wind, hail, fog, 
+          or blinding snow before finishing, earning this famous race the descriptive term “The Race to the 
+          Clouds.”
+          Over the 100+year history of this event, auto racing legends have pitted themselves and their 
+          machines against the mountain.  American racing families from across the country have championed 
+          the course – names like Unser, Mears, Pastrana, Zwart, Vahsholtz and hundreds of others.  
+          International competitors have also etched their mark on Pikes Peak including Nobuhiro “Monster” 
+          Tajima, Ari Vatanen, Walter Rohrl, Michele Mouton, Rod and Rhys Millen, Sebastien Loeb and most 
+          recently Romain Dumas who set a new course record in 2018 of 7:57.148.
+          The Pikes Peak International Hill Climb is the second oldest motorsports race in America and a 
+          long-standing tradition in Colorado Springs and the Pikes Peak Region.  The race is run on a 12.42 
+          mile (and now fully-paved) course with 156 turns that begins at 9,390 feet and finishes at the 
+          14,115-foot summit of America’s Mountain.</p>
+      </div>
+      <div>
+        <h1>PAVING PIKES PEAK</h1>
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
+        <div class="history">
+          <p id="main">
+            In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway through a special-use permit issued by the U.S. 
+            National Forest Service, the roads previous caretaker. 
+            The road was composed of an entirely dirt surface at the time that the City of Colorado Springs became its caretaker and in the 1950s the first 6 miles of the highway were paved, 
+            up to about a mile below the Start Line for the Pikes Peak International Hill Climb. 
+            In August 1998, the Pikes Peak chapter of the Sierra Club, the nation’s largest environmental organization, claimed that gravel pollution caused by the 13 unpaved miles of the Pikes Peak Highway violated the Clean Water Act and filed a lawsuit against the City of Colorado Springs and National Forest Service. 
+            The City of Colorado Springs did not deny that gravel from the Pikes Peak Highway migrated from the Highway or that streams, wetlands, and reservoirs were impacted by gravity and weather moving the gravel down the mountain. 
+          </p>
+          <aside>
+            <img loading="lazy" src="https://ppihc.org/wp-content/uploads/Pavement-History-Infographic-Copy-768x768.png" />
+          </aside>
+          <p>
+            The City did however argue that the Highway could not be established as a “point source” under the Clean Water Act and that the Sierra Club did not have the legal right to the relief sought. The United States filed a brief in response to the City’s motion arguing that the Highway is a point source and would be 
+            required to acquire the appropriate discharge permits and certification. The Sierra Club and City of Colorado Springs reached a settlement in February 1999 and the State of Colorado ordered the City of Colorado Springs to comply with the conditions contained in a Section 401 permit issued by the Water Quality Control Division of the Colorado Department of Public Health and the Environment.
+            This permit stated that the City had to implement a plan to correct the erosion and sediment problems caused by the highway before 2012. In addition to the permitting requirements which were projected to cast $14-20 million, the suit called for the City to contribute $300,000 to fund cleanup and remediation projects in 
+            addition to $100,000 to assist with the Sierra Club’s legal fees. Although the National Forest Service was a co-defendant in the lawsuit, they were not a party in the settlement because the City of Colorado Springs was/is the party responsible for maintaining the Highway. The City found no other solution to meet the permitting requirements other than paving the remaining 13 miles of dirt that 
+            lead to the Summit of Pikes Peak – Americas Mountain. The first mile of paving was installed in 2002 and the project was completed weeks after the 89th Running of the Pikes Peak International Hill Climb in 2011. <strong>***The PPIHC rents the road from the City of Colorado Springs to organize the race each year and was not involved in the decision to pave the top 13 miles of the Pikes Peak Highway.
+            The PPIHC places great value in the rich tradition and history that comes with being the second oldest motorsports event in the Western Hemisphere and was not in favor of the paving of the dirt racing surface that had been used since the first race in 1916.***</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
     <br />
     <br />
     <br />
@@ -72,7 +130,7 @@
             <p>Corners</p>
           </div>
           <div class="col">
-            <p>Finish Line(ft)</p>
+            <p>Finish Line</p>
           </div>
         </div>
       </div>
@@ -160,6 +218,7 @@ font-weight: 200;
 
 p {
 padding: 2vw;
+text-align: left;
 }
 
 h3 {
@@ -187,10 +246,19 @@ z-index: 0;
 padding-top: 100px;
 }
 
-.history{
-padding: 20px;
+section p{
+  padding-right: 15vw;
+  padding-left: 15vw;
 }
 
+section h1{
+  font-size: 24px;
+}
+
+.history{
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
 
 .history p {
 padding: 0px;
@@ -213,11 +281,6 @@ font-size: x-large;
 font-weight: bold;
 }
 
-.blockquote{
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .col img{
   width: 50px;
 }
@@ -225,8 +288,7 @@ font-weight: bold;
 .col h1{
   font-size: 5vw;
   font-weight:100;
-  font-weight: 100;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .col span{
@@ -235,8 +297,11 @@ font-weight: bold;
 }
 
 .col p{
+  display: inline;
+  text-align: center;
   font-size: 2.25vw;
   margin-top: -10px;
+  color: #00b6ff;
 }
 
 .thanks{
@@ -257,14 +322,6 @@ aside img{
   object-fit: cover;
 }
 
-
-.carousel{
-
-}
-
-.carousel img{
-
-}
 
 @media only screen and (min-width: 1020px) {
   aside img{

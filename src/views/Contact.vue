@@ -61,11 +61,13 @@ iframe{
 #contact-container{
     padding-right:7vw;
     padding-left: 7vw;
+    position: relative;
 }
 
 .contact-info{
 background-color: #2c3e50;
 padding: 40px;
+background-image: url("https://ppihc.org/wp-content/uploads/bk-10.png?id=4214");
 }
 
 .contact-info h2{
@@ -80,29 +82,10 @@ padding: 40px;
 }
 
 aside{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    float: left;
-    width:80px;
-
+    padding-right: 450px;
 }
 aside img{
-    position: absolute;
     width:40px;
-    top:-10px;
-    left: 20vw;
 }
 
-@media only screen and (max-width:1120px){
-  aside img{
-    margin-left: -15vw;
-  }
-}
-
-@media only screen and (min-width:1124px){
-  aside img{
-    margin-left: -2vw;
-  }
-}
 </style>

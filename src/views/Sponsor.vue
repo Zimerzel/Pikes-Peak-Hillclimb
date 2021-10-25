@@ -5,22 +5,21 @@
             <div class="container">
                 <div class="row">
                 <div class="col">
-
-                    <h1>Title Sponsor</h1>
-                    <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" />
+                    <h1>TITLE SPONSOR</h1>
+                    <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" id="split"/>
                     <br/>
-                    <img src="https://ppihc.org/wp-content/uploads/2017/09/BroadmoorLogo1.jpg" />
+                    <img src="https://ppihc.org/wp-content/uploads/2017/09/BroadmoorLogo1.jpg" id="main-sponsors"/>
                 </div>
                 <div class="col">
-                    <h1>Presenting Sponsor</h1>
-                    <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" />
+                    <h1>PRESENTING SPONSOR</h1>
+                    <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" id="split"/>
                     <br/>
-                    <img src="https://ppihc.org/wp-content/uploads/2017/08/Gran-Turismo-Logo-PNG-Image-300x99.png" />
+                    <img src="https://ppihc.org/wp-content/uploads/2017/08/Gran-Turismo-Logo-PNG-Image-300x99.png" id="main-sponsors"/>
                 </div>
                 </div>
             </div>
-            <h2> 2021 Sponsors </h2>
-            <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" />
+            <h2> 2021 SPONSORS </h2>
+            <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" id="split"/>
             <div class="container" id="Sponsors">
                 <div class="row">
                     <div class="col">
@@ -103,8 +102,26 @@
     margin-top:20vh;
 }
 
+#Sponsors {
+    margin-top: 15px
+}
+
 #Sponsors img{
 max-width: 200px;
 padding: 20px
+}
+
+h1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+#split{
+    padding:20px
+}
+
+#main-sponsors{
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 </style>

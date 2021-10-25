@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <HelloWorld msg="Paving Pikes Peak"/>
+    <HelloWorld msg="WHAT IS PPIHC?"/>
   </div>
 </template>
 
