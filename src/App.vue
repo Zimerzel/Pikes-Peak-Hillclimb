@@ -38,7 +38,7 @@ export default {
     '$route' (){
       this.showCollapse = false
     }
-  }
+  },
 }
 </script>
 
