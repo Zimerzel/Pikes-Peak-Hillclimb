@@ -200,17 +200,19 @@ padding-top: 100px;
 }
 
 section p{
-  padding-right: 15vw;
-  padding-left: 15vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 section h1{
-  font-size: 2vw;
+  font-size: 22px;
+  margin-right:10vw;
+  margin-left: 10vw;
 }
 
 .history{
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
 }
 
 .history p {
@@ -286,8 +288,8 @@ aside img{
     width: 60%;
   }
   .history{
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
   }
   .col h1{
     font-size: 3vw;
