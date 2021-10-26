@@ -3,7 +3,7 @@
             <br/>
         <div id="cont">
             <h1> Contact Us</h1>
-            <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" />
+            <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break"/>
             <br/>
             <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLZ12AlBbE4cR8bLuFdj70V8&key=AIzaSyCnzWZuKfAzAXehmGcjwBQcciP8slDHFQM"></iframe>
             <br/>
@@ -11,7 +11,7 @@
                 <div class="contact-info">
                     <div>
                         <div>
-                            <h2>Office Adress</h2>
+                            <h2>Office Address</h2>
                             <aside>
                                 <img src="../assets/Icons/map.svg" alt="map icon"/>   
                             </aside>
@@ -93,7 +93,7 @@ aside img{
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 900px) {
 .contact{
     padding-right: 4vw;
     padding-left: 4vw

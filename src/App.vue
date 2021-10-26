@@ -80,6 +80,7 @@ footer h4{
   text-decoration: none;
   margin-right:1vw;
   left: 60vw;
+  margin-top: 20px;
 
 }
 
