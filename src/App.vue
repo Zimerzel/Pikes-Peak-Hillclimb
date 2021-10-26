@@ -52,7 +52,7 @@ export default {
 }
 
 .logo{
-margin-top:10px;
+margin-top:20px;
 max-height: 10vh;
 position: fixed;
 margin-left: -45vw;
@@ -72,8 +72,8 @@ footer h4{
   left:73%;
   width:100vw;
   background-color: white;
-  padding-top: 50px;
-  padding-bottom:47px;
+  padding-top: 30px;
+  padding-bottom:40px;
   float: right;
   position: fixed;
   margin-left: -73vw;
@@ -151,7 +151,7 @@ footer h1{
 }
 
 .logo{
-  margin-top:20px;
+  margin-top:10px;
 }
 
 }

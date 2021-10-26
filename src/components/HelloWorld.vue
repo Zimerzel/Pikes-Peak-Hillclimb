@@ -4,9 +4,8 @@
     <section>
       <div class="history">
         <h1>WHAT IS THE PPIHC?</h1>
-        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" />
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" id="break" />
         <p>
-
           The Broadmoor Pikes Peak International Hill Climb (PPIHC), brought to you by Gran Turismo, 
           also known as The Race to the Clouds, is an invitational automobile hill climb to the summit 
           of Pikes Peak – America’s Mountain in Colorado, USA held on the last Sunday of June.  
@@ -23,7 +22,7 @@
       </div>
       <div>
         <h1>HISTORY OF THE PIKES PEAK INTERNATIONAL HILL CLIMB</h1>
-        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" />
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" id="break"/>
         <p>Commissioned by Thomas Jefferson to explore the Great Plains, Lt. Zebulon Pike first saw Pikes Peak
           in 1806 from the eastern portion of today’s Colorado in 1806. As he approached the magnificent peak, 
           rising abruptly from the plains, Pike swore this mountain would never be conquered by man.
@@ -57,7 +56,7 @@
       </div>
       <div>
         <h1>PAVING PIKES PEAK</h1>
-        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" />
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" id="break"/>
         <div class="history">
           <p id="main">
             In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway through a special-use permit issued by the U.S. 
@@ -208,6 +207,10 @@ section h1{
   font-size: 22px;
   margin-right:10vw;
   margin-left: 10vw;
+}
+
+#break{
+  padding:20px
 }
 
 .history{
