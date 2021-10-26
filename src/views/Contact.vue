@@ -53,7 +53,7 @@ iframe{
 
 
 .contact {
-    padding-top: 15vh;
+    padding-top: 20vh;
     background-color: rgb(255, 255, 255);
 
 }
