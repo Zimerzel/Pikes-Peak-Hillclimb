@@ -124,7 +124,6 @@ footer h1{
   color: #ffffff;
 }
 
-
 @media only screen and (max-width: 995px) {
 .navbar-nav a{
   margin-left: -25vw
@@ -133,6 +132,11 @@ footer h1{
   margin-right: 100px !important;
   margin-top: -10px !important
 }
+
+.logo{
+  margin-top:20px;
+}
+
 }
 
 @media only screen and (min-width: 1524px){
