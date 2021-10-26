@@ -2,7 +2,7 @@
   <div class="hello">
     <img class="viper" alt="Pikes peak viper" src="../assets/viper.jpg">
     <section>
-      <div>
+      <div class="history">
         <h1>WHAT IS THE PPIHC?</h1>
         <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" />
         <p>
@@ -205,7 +205,7 @@ section p{
 }
 
 section h1{
-  font-size: 24px;
+  font-size: 2vw;
 }
 
 .history{
@@ -272,6 +272,7 @@ font-weight: bold;
 
 blockquote{
   padding-bottom:50px;
+  margin-top: 80px;
 }
 
 aside img{
@@ -304,6 +305,9 @@ aside img{
 @media only screen and (min-width:1490px){
   aside img{
     width: 40%;
+  }
+  blockquote{
+    margin-top: 20vh;
   }
 }
 </style>

@@ -57,14 +57,13 @@ footer h4{
   width:100vw;
   background-color: white;
   padding-top: 50px;
+  padding-bottom:47px;
   float: right;
   position: fixed;
   margin-left: -73vw;
   display: inline;
   width:200%;
   z-index: 1;
-  height: 130px;
-
 }
 
 .navbar-nav{
