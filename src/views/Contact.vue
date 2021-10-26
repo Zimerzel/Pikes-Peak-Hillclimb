@@ -1,57 +1,61 @@
 <template>
     <div class="contact">
-        <Contact />
-                <br/>
-        <h1> Contact Us</h1>
-        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" />
-        <br/>
-        <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLZ12AlBbE4cR8bLuFdj70V8&key=AIzaSyCnzWZuKfAzAXehmGcjwBQcciP8slDHFQM"></iframe>
-        <br/>
-        <div id="contact-container">
-            <div class="contact-info">
-                <div>
+            <br/>
+        <div id="cont">
+            <h1> Contact Us</h1>
+            <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" />
+            <br/>
+            <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLZ12AlBbE4cR8bLuFdj70V8&key=AIzaSyCnzWZuKfAzAXehmGcjwBQcciP8slDHFQM"></iframe>
+            <br/>
+            <div id="contact-container">
+                <div class="contact-info">
                     <div>
-                        <h2>Office Adress</h2>
-                        <aside>
-                            <img src="../assets/Icons/map.svg" />   
-                        </aside>
-                        <p>1631 Mesa Avenue, Suite E</p>
-                        <br />
-                        <p>Colorado Springs, CO 80906</p>
+                        <div>
+                            <h2>Office Adress</h2>
+                            <aside>
+                                <img src="../assets/Icons/map.svg" alt="map icon"/>   
+                            </aside>
+                            <p>1631 Mesa Avenue, Suite E</p>
+                            <br />
+                            <p>Colorado Springs, CO 80906</p>
+                        </div>
                     </div>
-                </div>
-                <br />
-                <div>
-                    <h2>Phone Number</h2>
-                        <aside>
-                            <img src="../assets/Icons/phone.svg" />   
-                        </aside>
-                    <p>Main: 719.685.4400</p>
-                </div>
-                <br />
-                <div>
-                    <h2>General Information</h2>
-                        <aside>
-                            <img src="../assets/Icons/email.svg" />   
-                        </aside>
-                    <p>Information@pphic.org</p>
                     <br />
-                    <h2>Staff Email</h2>
-                    <p> zach.imerzel@gmail.com</p>
+                    <div>
+                        <h2>Phone Number</h2>
+                            <aside>
+                                <img src="../assets/Icons/phone.svg" alt="phone icon"/>   
+                            </aside>
+                        <p>Main: 719.685.4400</p>
+                    </div>
+                    <br />
+                    <div>
+                        <h2>General Information</h2>
+                            <aside>
+                                <img src="../assets/Icons/email.svg" alt="email icon"/>   
+                            </aside>
+                        <p>Information@pphic.org</p>
+                        <br />
+                        <h2>Staff Email</h2>
+                        <p> zach.imerzel@gmail.com</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
 <style scoped>
+
 iframe{
     width: 85%;
     margin-top: 30px;
 }
 
+
 .contact {
     padding-top: 15vh;
     background-color: rgb(255, 255, 255);
+
 }
 
 .contact h1{
@@ -61,7 +65,7 @@ iframe{
 #contact-container{
     padding-right:7vw;
     padding-left: 7vw;
-    position: relative;
+    margin-bottom: 50px;
 }
 
 .contact-info{
@@ -82,10 +86,32 @@ background-image: url("https://ppihc.org/wp-content/uploads/bk-10.png?id=4214");
 }
 
 aside{
-    padding-right: 450px;
+    margin-right: 400px;
 }
 aside img{
     width:40px;
+}
+
+
+@media only screen and (max-width: 400px) {
+.contact{
+    padding-right: 4vw;
+    padding-left: 4vw
+}
+
+.contact-info p{
+    font-size: 12px;
+}
+
+aside{
+margin-right: 10px;
+padding-bottom: 10px
+}
+
+aside img{
+    width:30px;
+}
+
 }
 
 </style>

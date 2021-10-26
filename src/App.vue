@@ -2,14 +2,6 @@
   <div id="app">
     <header id="header">
       <img src= "./assets/pikes-logo.jpg" class="logo" />
-      <!-- <div id="nav">
-        <router-link to="/" class="hover-underline-animation">About</router-link>
-        <router-link to="/contact" class="hover-underline-animation">Contact</router-link>
-        <router-link to="/sponsor" class="hover-underline-animation">Sponsors</router-link>
-        <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-instagram" ></i></a>
-        <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-youtube"></i></a>
-      </div> -->
       <div id="header">
         <b-navbar toggleable="lg" type="light" variant="white" id="navbar" class="navbar-horizontal">
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -28,7 +20,9 @@
     </header>
     <router-view/>
     <footer>
-      <h4>Copyright © 2021 Zach Imerzel</h4>
+      <h1>Copyright © 2021 Zach Imerzel</h1>
+      <a href="https://github.com/Zimerzel/Pikes-Peak-Hillclimb" target="blank" rel="noreferrer"><i class="fas fa-code-branch"></i></a>
+      
     </footer>
   </div>
 </template>
@@ -62,14 +56,14 @@ footer h4{
   left:73%;
   width:100vw;
   background-color: white;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 50px;
   float: right;
   position: fixed;
   margin-left: -73vw;
   display: inline;
   width:200%;
   z-index: 1;
+  height: 130px;
 
 }
 
@@ -118,6 +112,20 @@ footer h4{
   transform-origin: bottom left;
 }
 
+footer{
+  background-image: url("https://ppihc.org/wp-content/uploads/bk-10.png?id=4214");
+  height: 150px;
+}
+
+footer h1{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  padding-top:75px;
+  color: #ffffff;
+}
+
+
 @media only screen and (max-width: 995px) {
 .navbar-nav a{
   margin-left: -25vw
@@ -126,6 +134,12 @@ footer h4{
   margin-right: 100px !important;
   margin-top: -10px !important
 }
-
 }
+
+@media only screen and (min-width: 1524px){
+  .navbar a{
+  left: 68vw;
+  }
+}
+
 </style>

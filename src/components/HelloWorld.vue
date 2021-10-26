@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
-    <img class="viper" alt="Vue logo" src="../assets/viper.jpg">
+    <img class="viper" alt="Pikes peak viper" src="../assets/viper.jpg">
     <section>
       <div>
         <h1>WHAT IS THE PPIHC?</h1>
-        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" />
         <p>
 
           The Broadmoor Pikes Peak International Hill Climb (PPIHC), brought to you by Gran Turismo, 
@@ -23,7 +23,7 @@
       </div>
       <div>
         <h1>HISTORY OF THE PIKES PEAK INTERNATIONAL HILL CLIMB</h1>
-        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" />
         <p>Commissioned by Thomas Jefferson to explore the Great Plains, Lt. Zebulon Pike first saw Pikes Peak
           in 1806 from the eastern portion of today’s Colorado in 1806. As he approached the magnificent peak, 
           rising abruptly from the plains, Pike swore this mountain would never be conquered by man.
@@ -57,7 +57,7 @@
       </div>
       <div>
         <h1>PAVING PIKES PEAK</h1>
-        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="spacer" />
+        <img src="https://ppihc.org/wp-content/uploads/2015/09/inline-title.jpg" alt="deco break" />
         <div class="history">
           <p id="main">
             In 1948, the City of Colorado Springs became responsible for maintaining the Pikes Peak Highway through a special-use permit issued by the U.S. 
@@ -68,7 +68,7 @@
             The City of Colorado Springs did not deny that gravel from the Pikes Peak Highway migrated from the Highway or that streams, wetlands, and reservoirs were impacted by gravity and weather moving the gravel down the mountain. 
           </p>
           <aside>
-            <img loading="lazy" src="https://ppihc.org/wp-content/uploads/Pavement-History-Infographic-Copy-768x768.png" />
+            <img loading="lazy" src="https://ppihc.org/wp-content/uploads/Pavement-History-Infographic-Copy-768x768.png" alt="paving history map"/>
           </aside>
           <p>
             The City did however argue that the Highway could not be established as a “point source” under the Clean Water Act and that the Sierra Club did not have the legal right to the relief sought. The United States filed a brief in response to the City’s motion arguing that the Highway is a point source and would be 
@@ -89,16 +89,16 @@
       <div class="container">
         <div class="row align-items-start">
           <div class="col">
-            <img src="../assets/Icons/finish.svg" width="80px"/>
+            <img src="../assets/Icons/finish.svg" width="80px" alt="flag icon"/>
           </div>
           <div class="col">
-            <img src="../assets/Icons/road.svg" width="80px"/>
+            <img src="../assets/Icons/road.svg" width="80px" alt="road icon"/>
           </div>
           <div class="col">
-            <img src="../assets/Icons/arrow.svg" width="80px"/>
+            <img src="../assets/Icons/arrow.svg" width="80px" alt="right turn arrow"/>
           </div>
           <div class="col">
-            <img src="../assets/Icons/checkered-flag.svg" width="80px"/>
+            <img src="../assets/Icons/checkered-flag.svg" width="80px" alt="checkered flag icon"/>
           </div>
         </div>
         <div class="row align-items-center">
@@ -135,53 +135,6 @@
         </div>
       </div>
     </blockquote>
-    
-    <div>
-      <div class="carousel">
-        <b-carousel
-          id="carousel-1"
-          v-model="slide"
-          :interval="3000"
-          controls
-          indicators
-          background="#ccc"
-          img-width="1024"
-          img-height="480px"
-          style="text-shadow: 1px 1px 2px #000;"
-          @sliding-start="onSlideStart"
-          @sliding-end="onSlideEnd"
-        >
-          <!-- Text slides with image -->
-          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
-            <img src="https://ppihc.org/wp-content/uploads/2017/08/gran-turismo-logo-2.png" />
-          </b-carousel-slide>
-
-          <!-- Slides with custom text -->
-          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
-            <img src="https://ppihc.org/wp-content/uploads/Visit-Colorado-Springs-Horizontal-Resized-for-Web-140x110.png" />
-          </b-carousel-slide>
-
-          <!-- Slides with image only -->
-          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
-            <img src="https://ppihc.org/wp-content/uploads/LART-Resized-for-Web.png" />
-          </b-carousel-slide>
-
-          <!-- Slides with img slot -->
-          <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-          <b-carousel-slide img-src="https://ppihc.org/wp-content/uploads/bk-10.png?id=4214">
-              <img src="https://ppihc.org/wp-content/uploads/ToyoTiresNoTag_blue-Resized-for-web-140x110.png" alt="image slot">
-          </b-carousel-slide>
-
-          <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-          <!-- <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-              a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-            </p>
-          </b-carousel-slide> -->
-        </b-carousel>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -315,6 +268,10 @@ font-weight: bold;
 
 .thanks h1{
   color: white;
+}
+
+blockquote{
+  padding-bottom:50px;
 }
 
 aside img{
