@@ -5,7 +5,7 @@
       <div id="header">
         <b-navbar toggleable="lg" type="light" variant="white" id="navbar" class="navbar-horizontal">
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-          <b-collapse id="nav-collapse" is-nav>
+          <b-collapse id="nav-collapse" v-model="showCollapse" is-nav>
             <b-navbar-nav class="navbar-nav">
               <router-link to="/" class="hover-underline-animation">About</router-link>
               <router-link to="/contact" class="hover-underline-animation">Contact</router-link>
@@ -26,6 +26,21 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return{
+      showCollapse: false
+    }
+  },
+  watch:{
+    '$route' (){
+      this.showCollapse = false
+    }
+  }
+}
+</script>
 
 <style>
 #app {
