@@ -147,7 +147,7 @@ footer h1{
 }
 .navbar-toggler{
   margin-right: 100px !important;
-  margin-top: -10px !important
+  margin-top: 8px !important
 }
 
 .logo{
