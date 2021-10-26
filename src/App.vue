@@ -52,6 +52,7 @@ export default {
 }
 
 .logo{
+margin-top:10px;
 max-height: 10vh;
 position: fixed;
 margin-left: -45vw;
