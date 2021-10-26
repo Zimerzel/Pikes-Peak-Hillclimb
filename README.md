@@ -3,7 +3,8 @@ App built to inform and connect people to the pikes peak hill climb events.
 Built with Vue.js (WIP)
 
 
-![pikes](https://user-images.githubusercontent.com/79726069/134752205-e9bc7567-1237-4908-a2ad-003050068892.PNG)
+![pike](https://user-images.githubusercontent.com/79726069/138789702-42e30c2b-d88d-4373-8c9a-249bb5dbc9c9.PNG)
+
 
 
 ## Deployed Site(WIP)
