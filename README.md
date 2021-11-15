@@ -59,5 +59,5 @@ Contact me with any questions:
 
 Email : Zach.imerzel@gmail.com
 
-## Deployed Site(WIP)
+## Deployed Site
 * https://pikes-peak-329615.web.app/#/
