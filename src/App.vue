@@ -10,9 +10,9 @@
               <router-link to="/" class="hover-underline-animation">About</router-link>
               <router-link to="/contact" class="hover-underline-animation">Contact</router-link>
               <router-link to="/sponsor" class="hover-underline-animation">Sponsors</router-link>
-              <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation" alt="Facebook Link"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation" alt="Instagram Link"><i class="fab fa-instagram" ></i></a>
-              <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation" alt="Youtube Link"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation" ><i class="fab fa-facebook-f" alt="Facebook Link"></i></a>
+              <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation" ><i class="fab fa-instagram" alt="Instagram Link"></i></a>
+              <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation" ><i class="fab fa-youtube" alt="Youtube Link"></i></a>
             </b-navbar-nav>
           </b-collapse>
         </b-navbar>
