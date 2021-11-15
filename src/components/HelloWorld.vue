@@ -26,10 +26,14 @@
         <p>Commissioned by Thomas Jefferson to explore the Great Plains, Lt. Zebulon Pike first saw Pikes Peak
           in 1806 from the eastern portion of today’s Colorado in 1806. As he approached the magnificent peak, 
           rising abruptly from the plains, Pike swore this mountain would never be conquered by man.
+        </p>
+        <p>
           Zebulon Pike never scaled the mountain which bears his name. But today, Pikes Peak has been climbed 
           by tourists from all over the world by car, motorcycle, bicycle, train, mule, horse, and on foot. Most
           visitors are overcome by its beauty, including Katherine Lee Bates, who was inspired by the view from
-            the summit to compose the famous lyrics to America the Beautiful in 1893.
+          the summit to compose the famous lyrics to America the Beautiful in 1893.
+        </p>
+        <p>
           Pike could have imagined neither the vehicles nor the automobile race course which would conclude
           at the summit of his peak a little over a century after his first sighting. By 1900, a carriage 
           road had been built. Spencer Penrose, one of Colorado Springs’ city’s major benefactors, realized 
@@ -38,21 +42,28 @@
           to his Broadmoor Hotel, he devised a simple plan; run an automobile race to the summit of Pikes Peak. 
           The Pikes Peak Auto Hill Climb was first held on August 10, 11, and 12, 1916 and Rea Lentz was 
           crowned
-            the winner with a time of 20:55.600.
+          the winner with a time of 20:55.600.
+        </p>
+        <p>
           Drivers, then and now, are challenged by the torturous road and the rapidly changing weather. 
           Starting out in sunshine, the driver could travel through sleet, thunderstorms, wind, hail, fog, 
           or blinding snow before finishing, earning this famous race the descriptive term “The Race to the 
           Clouds.”
+        </p>
+        <p>
           Over the 100+year history of this event, auto racing legends have pitted themselves and their 
           machines against the mountain.  American racing families from across the country have championed 
           the course – names like Unser, Mears, Pastrana, Zwart, Vahsholtz and hundreds of others.  
           International competitors have also etched their mark on Pikes Peak including Nobuhiro “Monster” 
           Tajima, Ari Vatanen, Walter Rohrl, Michele Mouton, Rod and Rhys Millen, Sebastien Loeb and most 
           recently Romain Dumas who set a new course record in 2018 of 7:57.148.
+        </p>
+        <p>
           The Pikes Peak International Hill Climb is the second oldest motorsports race in America and a 
           long-standing tradition in Colorado Springs and the Pikes Peak Region.  The race is run on a 12.42 
           mile (and now fully-paved) course with 156 turns that begins at 9,390 feet and finishes at the 
-          14,115-foot summit of America’s Mountain.</p>
+          14,115-foot summit of America’s Mountain.
+        </p>
       </div>
       <div>
         <h1>PAVING PIKES PEAK</h1>
@@ -169,7 +180,7 @@ font-weight: 200;
 }
 
 p {
-padding: 2vw;
+padding: 1vw;
 text-align: left;
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header id="header">
-      <img src= "./assets/pikes-logo.jpg" class="logo" />
+      <img src= "./assets/pikes-logo.jpg" class="logo" alt="PPIHC logo"/>
       <div id="header">
         <b-navbar toggleable="lg" type="light" variant="white" id="navbar" class="navbar-horizontal">
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -10,9 +10,9 @@
               <router-link to="/" class="hover-underline-animation">About</router-link>
               <router-link to="/contact" class="hover-underline-animation">Contact</router-link>
               <router-link to="/sponsor" class="hover-underline-animation">Sponsors</router-link>
-              <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-instagram" ></i></a>
-              <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.facebook.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation" alt="Facebook Link"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/pikespeakhillclimb/" target="blank" rel="noreferrer" class="hover-underline-animation" alt="Instagram Link"><i class="fab fa-instagram" ></i></a>
+              <a href="https://www.youtube.com/user/pikespeakhillclimb" target="blank" rel="noreferrer" class="hover-underline-animation" alt="Youtube Link"><i class="fab fa-youtube"></i></a>
             </b-navbar-nav>
           </b-collapse>
         </b-navbar>
@@ -21,7 +21,7 @@
     <router-view/>
     <footer>
       <h1>Copyright © 2021 Zach Imerzel</h1>
-      <a href="https://github.com/Zimerzel/Pikes-Peak-Hillclimb" target="blank" rel="noreferrer"><i class="fas fa-code-branch"></i></a>
+      <a href="https://github.com/Zimerzel/Pikes-Peak-Hillclimb" target="blank" rel="noreferrer" alt="Source Code Link"><i class="fas fa-code-branch"></i></a>
       
     </footer>
   </div>
@@ -139,6 +139,7 @@ footer h1{
   font-weight: 100;
   padding-top:75px;
   color: #ffffff;
+  text-align: ;
 }
 
 @media only screen and (max-width: 995px) {
@@ -161,5 +162,7 @@ footer h1{
   left: 68vw;
   }
 }
+
+
 
 </style>
