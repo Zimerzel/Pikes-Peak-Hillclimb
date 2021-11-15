@@ -15,7 +15,7 @@
 ## User Story
 AS AN avid racing fan
 I WANT to have a simplified explanation of what the PPIHC is
-SO THAT I can share the site with anyone summarize what PPIHC is and how they can get involved.
+SO THAT I can share the site with anyone and summarize what PPIHC is and how they can get involved.
 
 ## Acceptence criteria
 GIVEN a Vue application for a client
