@@ -139,7 +139,6 @@ footer h1{
   font-weight: 100;
   padding-top:75px;
   color: #ffffff;
-  text-align: ;
 }
 
 @media only screen and (max-width: 995px) {
