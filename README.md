@@ -18,7 +18,7 @@ I WANT to have a simplified explanation of what the PPIHC is
 SO THAT I can share the site with anyone and summarize what PPIHC is and how they can get involved.
 
 ## Acceptence criteria
-GIVEN a Vue application for a client
+GIVEN a Vue PWA application for a client
 WHEN I load the application
 THEN I am presented with a page containing a header, a section for content, and a footer
 WHEN I view the header
